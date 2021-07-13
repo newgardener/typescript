@@ -20,7 +20,7 @@
 
   type ResourceLoadState = LoadingState | SuccessState | FailState;
 
-  function printLoginState(state: ResourceLoadState) {
+  function showLoginState(state: ResourceLoadState) {
     switch(state.state) {
       case 'loading':
         console.log(`👀 loading...`);
